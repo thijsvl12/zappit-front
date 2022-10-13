@@ -7,7 +7,7 @@ interface ContainerProps {
   className?: string;
 }
 
-const Container: FC<ContainerProps> = ({ children, className = null }) => {
-  return <div className={classNames('mx-auto max-w-7xl px-4 sm:px-8', className)}>{children}</div>;
+const Container: FC<ContainerProps> = ({ children, className }) => {
+  return <div className={classNames('mx-auto h-full max-w-7xl px-4 sm:px-8', className)}>{children}</div>;
 };
 export default Container;

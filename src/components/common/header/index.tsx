@@ -1,7 +1,7 @@
 import Container from '../Container';
 import type { FC } from 'react';
 import Logo from './Logo';
-import Navbar from './navbar/Navbar';
+import Navbar from './Navbar';
 
 interface HeaderProps {}
 

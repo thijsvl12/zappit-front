@@ -1,8 +1,8 @@
-import type { Children, FC, ReactNode } from 'react';
+import type { FC, ReactNode } from 'react';
 
-import Footer from './footer/Footer';
-import Header from './header/Header';
-import Main from './main/Main';
+import Footer from './Footer';
+import Header from './Header';
+import Main from './Main';
 import Wrapper from './Wrapper';
 
 interface LayoutProps {
